@@ -74,8 +74,8 @@ namespace SerialCSharp
             this.Tb_Baudrate = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.kryptonGroupBox4 = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
             this.kryptonGroupBox5 = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.Cb_DeviceID = new ComponentFactory.Krypton.Toolkit.KryptonComboBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.WifiGroup)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WifiGroup.Panel)).BeginInit();
             this.WifiGroup.Panel.SuspendLayout();
@@ -1100,17 +1100,6 @@ namespace SerialCSharp
             this.kryptonGroupBox5.TabIndex = 64;
             this.kryptonGroupBox5.Values.Heading = "Device ID";
             // 
-            // label7
-            // 
-            this.label7.AutoEllipsis = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(39, 47);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(154, 28);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "DEVICE ID MUST BE DIFFERENT WITH OTHER DEVICE";
-            // 
             // Cb_DeviceID
             // 
             this.Cb_DeviceID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -1162,6 +1151,17 @@ namespace SerialCSharp
             this.Cb_DeviceID.StateTracking.Item.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.Cb_DeviceID.StateTracking.Item.Content.Padding = new System.Windows.Forms.Padding(10, -1, -1, -1);
             this.Cb_DeviceID.TabIndex = 63;
+            // 
+            // label7
+            // 
+            this.label7.AutoEllipsis = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Red;
+            this.label7.Location = new System.Drawing.Point(39, 47);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(154, 28);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "DEVICE ID MUST BE DIFFERENT WITH OTHER DEVICE";
             // 
             // Main
             // 
